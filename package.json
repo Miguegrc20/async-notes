@@ -1,0 +1,24 @@
+{
+  "name": "curso-asyn-platzi",
+  "version": "1.0.0",
+  "description": "asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node callback/index.js",
+    "callback:challenge": "node callback/challenge.js",
+    "promise": "node promise/index.js",
+    "promise:challenge": "node promise/challenge.js",
+    "async": "node async/index.js",
+    "async:challenge": "node async/challenge.js"
+  },
+  "keywords": [
+    "async",
+    "promise",
+    "callbacks"
+  ],
+  "author": "Miguel",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
